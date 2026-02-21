@@ -45,4 +45,6 @@ func main() {
 	highscore = append(highscore[:2], highscore[3:]...) // this will remove the element at index 2 (300) from the slice
 	fmt.Println("High Scores after deletion:", highscore)
 
+	// remove a value from the slice based on index
+
 }
