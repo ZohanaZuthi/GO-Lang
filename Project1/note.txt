@@ -1,0 +1,4 @@
+https://codingwithpatrik.dev/content/rest-api-in-gin
+go mod init project1
+migrate create -ext sql -dir ./cmd/migrate/migrations -seq create_users_table
+go install github.com/golang-migrate/migrate/v4/cmd/migrate@latest
